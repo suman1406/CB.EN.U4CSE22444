@@ -52,12 +52,12 @@ This API provides endpoints for analyzing stock data, including calculating aver
 ## Implementation Details
 
 ### Average Price Calculation
-![Average Price Calculation](question1/Average.png)
+![Average Price Calculation](Question1/Average.png)
 
 The average price calculation uses a simple arithmetic mean of all price points within the specified time window.
 
 ### Correlation Calculation
-![Correlation Calculation](question1/Correlation.png)
+![Correlation Calculation](Question1/Correlation.png)
 
 The correlation calculation uses Pearson's correlation coefficient with a closest-pairing algorithm to align price points from different stocks based on their timestamps.
 
